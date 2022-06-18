@@ -21,13 +21,6 @@
 <script>
   import DatePicker from 'vue2-datepicker';
 
-  let parseJson = (data) => {
-    try {
-      return JSON.parse(data);
-    } catch (e) {}
-    return data;
-  };
-
   export default {
     name: 'ui-datepicker',
     components: {
